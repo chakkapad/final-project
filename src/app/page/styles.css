@@ -1,0 +1,28 @@
+/* styles.css */
+
+/* สร้างคลาสสำหรับคอลัม */
+.col {
+    background-color: rgb(255, 255, 255);
+    /* สีพื้นหลังของคอลัม */
+    border: 1px solid #423f3f;
+    /* เส้นขอบของคอลัม */
+    padding: 1rem;
+    /* ระยะห่างขอบภายในคอลัม */
+    text-align: center;
+    /* จัดข้อความในคอลัมตรงกลาง */
+    font-size: 30px;
+    margin-top: 190px;
+}
+
+/* สร้างคลาสสำหรับ container */
+.grid {
+    --bs-columns: 4;
+    /* กำหนดจำนวนคอลัมใน Bootstrap 4 */
+    --bs-gap: 5rem;
+    /* กำหนดระยะห่างระหว่างคอลัมใน Bootstrap 4 */
+    display: grid;
+    grid-template-columns: repeat(var(--bs-columns), 1fr);
+    gap: var(--bs-gap);
+    text-align: center;
+    /* จัดข้อความใน container ตรงกลาง */
+}
