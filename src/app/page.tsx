@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <>
       <div style={centerText}>
-        <h1>kuytuk</h1>
+        <h1>welcom</h1>
       </div>
 
     </>
